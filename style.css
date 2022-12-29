@@ -1,0 +1,118 @@
+
+.launcher{
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    background-color: gray;
+    cursor: pointer;
+    background: rgb(46, 40, 54);
+    height: 48px;
+    width: 48px;
+    display: flex;
+    border-radius: 50%;
+    box-sizing: border-box;
+    user-select: none;
+    transition: transform 0.16s linear 0s, opacity 0.08s linear 0s;
+}
+.launcher:hover{
+    transform: scale(1.1);
+}
+
+.logo{
+    margin: 2rem;
+}
+
+.icon{
+    display: flex;
+    margin: auto;
+    padding: 8px;
+    
+}
+.chat-container{
+    position: absolute;
+    background-color: #feeee2;
+    width: 400px;
+    height: 616px;
+    right: 2rem;
+    bottom: 5.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 1px 2px 0;
+    overflow: hidden;
+}
+.container{
+    height: 530px;
+    overflow-y: scroll;
+}
+
+.chat-header{
+    margin-top: 5rem;
+    padding: 1rem 2rem;
+}
+
+.chat-header h1{
+    margin: 0;
+}
+
+.main{
+    padding: 0 1rem;
+    font-size: 0.9rem;
+}
+
+.main-one{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 1px;
+    cursor: pointer;
+}
+.main-one *{
+    margin: 0;
+}
+.main-one p{
+    color: #737373
+}
+
+.main-menu{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.menu:hover{
+    box-shadow: 0 0 1px;
+    background-color: rgb(242, 242, 242);
+
+    
+}
+
+.menu.search-help{
+    background-color: rgb(242, 242, 242);
+    box-shadow: 0 0 1px;
+}
+
+
+
+.chat-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    background-color: white;
+    text-align: center;
+    padding-top: 1rem;
+}
